@@ -7,12 +7,8 @@ const Login: NextPage = () => {
 
   return (
     <>
-      <Flex>
-        <Image
-          src="ogimage.png"
-          alt="logo"
-          onClick={() => router.push("/home")}
-        />
+      <Flex w="100%" justify="center" alignItems="center">
+        <Image src="logo.svg" alt="logo" onClick={() => router.push("/home")} />
       </Flex>
     </>
   );
